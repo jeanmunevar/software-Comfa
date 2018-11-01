@@ -13,11 +13,12 @@ fetch('./archivo_plano.php').then((response)=>{
                 if(item[0]== 'CCF69'){
                     
                 }
-                else{for (var i = 0; i < cuenta; i++) {
-                        
+                else{
+                    for (var i = 0; i < cuenta; i++) {
+                    console.log("Hay un error en la linea: " + i);
                 }
                     
-                    console.log("Hay un error en la linea: " + i);
+                    
                 } 
             
             
